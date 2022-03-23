@@ -63,7 +63,7 @@ module.exports = {
             options: {
               name: '[name].[contenthash].[ext]',
             //   outputPath: 'images',
-              publicPath: 'https://github.com/miyata09x0084/practical-webpack/blob/main/docs/images',
+            //   publicPath: 'https://github.com/miyata09x0084/practical-webpack/blob/main/docs',
             },
           },
           'image-webpack-loader',
