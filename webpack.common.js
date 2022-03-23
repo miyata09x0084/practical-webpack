@@ -62,8 +62,8 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[name].[contenthash].[ext]',
-            //   outputPath: 'images',
-            //   publicPath: 'https://github.com/miyata09x0084/practical-webpack/blob/main/docs',
+              outputPath: 'images',
+              publicPath: './images',
             },
           },
           'image-webpack-loader',
@@ -87,7 +87,7 @@ module.exports = {
       chunks: ['another'],
     }),
     new MiniCssExtractPlugin({
-      filename: './css/[name].[contenthash].css',
+      filename: './[name].[contenthash].css',
     }),
   ],
 };
